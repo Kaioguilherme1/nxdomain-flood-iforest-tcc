@@ -14,7 +14,7 @@ Código-fonte, configurações de bancada virtualizada (`BIND 9.18 + dnsperf`), 
 | Recurso | Localização | Conteúdo e Finalidade |
 | :--- | :--- | :--- |
 | **Código e Matriz Janelada** | Este repositório (`nxdomain-flood-iforest-tcc`) | Scripts completos, bancada Docker e `dataset_features_48h_w30s.csv` (reproduz gráficos e tabelas do TCC em segundos). |
-| **Dataset Completo (48h Brutas)** | [Kaggle: kaioguilherme/dns-nxdomain-flood-benign-48h](https://www.kaggle.com/datasets/kaioguilherme/dns-nxdomain-flood-benign-48h) | Logs brutos BIND 9 (`benigno_unificado.log`, `ataques_unificados.log`) e CSV tabular estruturado (`dns_eventos_estruturados_48h.csv.gz`). |
+| **Dataset Completo (48h Brutas)** | [Kaggle: kaioguilherme/dns-nxdomain-flood-benign-48h](https://www.kaggle.com/datasets/kaioguilherme/dns-nxdomain-flood-benign-48h) · DOI [`10.34740/KAGGLE/DSV/22300671`](https://doi.org/10.34740/KAGGLE/DSV/22300671) | Logs brutos BIND 9 (`benigno_unificado.log`, `ataques_unificados.log`) e CSV tabular estruturado (`dns_eventos_estruturados_48h.csv.gz`). |
 | **Gerador de Tráfego Benigno** | [GitHub: Kaioguilherme1/dns-log-generator](https://github.com/Kaioguilherme1/dns-log-generator) | Simulador estocástico determinístico (`SEED = 129547711`) que gerou as 48h de tráfego legítimo de 25.000 clientes. |
 
 ---
@@ -68,7 +68,8 @@ python3 05_Codigo_e_Scripts/run_pipeline_completo.py --step 5
 
 Como os logs brutos e o arquivo estruturado excedem o limite de tamanho por arquivo do GitHub, eles estão hospedados publicamente no Kaggle:
 
-> **Dataset oficial no Kaggle:** https://www.kaggle.com/datasets/kaioguilherme/dns-nxdomain-flood-benign-48h
+> **Dataset oficial no Kaggle:** https://www.kaggle.com/datasets/kaioguilherme/dns-nxdomain-flood-benign-48h  
+> **DOI Permanente:** [`10.34740/KAGGLE/DSV/22300671`](https://doi.org/10.34740/KAGGLE/DSV/22300671) ([`kaggle.com/dsv/22300671`](https://www.kaggle.com/dsv/22300671))
 
 ### Nota de transparência sobre a volumetria (Kaggle vs. Matriz do TCC)
 - **Captura bruta de estresse no Kaggle (`01_logs_brutos/` e `02_dataset_estruturado/`):** Contém `126.351.730` linhas brutas (`89.174.860` benignas + `37.176.870` de ataque coletadas em estresse contínuo de `dnsperf`) e `122.786.098` eventos no CSV tabular compactado.
@@ -144,3 +145,18 @@ Parâmetros de treino: primeiras `20 h` (`2.400` janelas estritamente nominais, 
 | **Ataques Perdidos (FN)** | `75 janelas` | **`10 janelas`** | **`-86,7%`** (`-65 FN`) |
 | **AUC-ROC / AUC-PR** | `0,9922` / `0,9750` | **`0,9995` / `0,9980`** | `+0,0073` / `+0,0230` |
 | **Ataque Leve — Horário Comercial (08h–17h)** | `0,00%` (`0/63`) | **`84,13%` (`53/63`)** | **`+84,13 p.p.`** |
+
+---
+
+## Como Citar o Dataset
+
+```bibtex
+@misc{kaio_guilherme_ferraz_de_sousa_silva_2026,
+  title     = {DNS NXDOMAIN Flood & Benign Traffic Dataset (48h)},
+  url       = {https://www.kaggle.com/dsv/22300671},
+  doi       = {10.34740/KAGGLE/DSV/22300671},
+  publisher = {Kaggle},
+  author    = {Kaio Guilherme Ferraz de Sousa Silva},
+  year      = {2026}
+}
+```
