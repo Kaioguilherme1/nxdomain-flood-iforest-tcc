@@ -1,0 +1,6 @@
+Atributo Calculado (Δt = 30 s),Tráfego Normal (2.699 jan.),Ataque Leve (231 jan.),Ataque Moderado (186 jan.),Ataque Intenso (244 jan.)
+Consultas por Segundo (QPS),"479,76 ± 269,74","478,94 (-0,2%)","579,81 (+20,9%)","766,00 (+59,7%)"
+Consoantes Consecutivas (C_max),"2,34 ± 0,03","2,59 (+10,7%)","3,22 (+37,8%)","4,21 (+80,3%)"
+Entropia de Shannon (H),"3,92 ± 0,14 bits","4,16 bits (+6,1%)","4,41 bits (+12,6%)","4,59 bits (+17,1%)"
+Comprimento Médio (L),"15,35 ± 0,34 carac.","15,48 carac. (+0,8%)","15,82 carac. (+3,1%)","16,48 carac. (+7,4%)"
+Razão de Domínios Únicos (U),"0,095 ± 0,052","0,139 (+46,2%)","0,251 (+164,5%)","0,433 (+356,9%)"

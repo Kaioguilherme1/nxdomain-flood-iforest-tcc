@@ -1,0 +1,143 @@
+{
+  "data_execucao": "2026-10-27T02:52:40.960348+00:00",
+  "hardware": "AMD Ryzen 5 7600 (6 cores / 12 threads), 16 GB DDR5, NVMe",
+  "benigno": {
+    "arquivo_origem": "dns_events.log",
+    "total_consultas_benignas": 89174860,
+    "dia1_2026_06_07": {
+      "arquivo": "benigno_dia1_2026-06-07.log",
+      "consultas": 44602557,
+      "tamanho_bytes": 5971636720
+    },
+    "dia2_2026_06_08": {
+      "arquivo": "benigno_dia2_2026-06-08.log",
+      "consultas": 44572303,
+      "tamanho_bytes": 5967580383
+    },
+    "outras_linhas": 0,
+    "tempo_s": 30.2
+  },
+  "ataques": {
+    "arquivo_origem": "ataques_unificados.log",
+    "total_consultas_ataque": 37176870,
+    "origem_interna_ips": {
+      "arquivo": "ataques_origem_interna.log",
+      "consultas": 22760050,
+      "tamanho_bytes": 3208219711
+    },
+    "origem_externa_ips": {
+      "arquivo": "ataques_origem_externa.log",
+      "consultas": 14416820,
+      "tamanho_bytes": 2061685109
+    },
+    "campanhas_individuais": {
+      "1": {
+        "arquivo": "ataque_C01_MODERADO.log",
+        "consultas": 1798265,
+        "tamanho_bytes": 255075377
+      },
+      "2": {
+        "arquivo": "ataque_C02_LEVE.log",
+        "consultas": 599801,
+        "tamanho_bytes": 84909066
+      },
+      "3": {
+        "arquivo": "ataque_C03_INTENSO.log",
+        "consultas": 4496840,
+        "tamanho_bytes": 637116665
+      },
+      "4": {
+        "arquivo": "ataque_C04_LEVE.log",
+        "consultas": 597012,
+        "tamanho_bytes": 84610751
+      },
+      "5": {
+        "arquivo": "ataque_C05_MODERADO.log",
+        "consultas": 1708583,
+        "tamanho_bytes": 242098475
+      },
+      "6": {
+        "arquivo": "ataque_C06_LEVE.log",
+        "consultas": 599271,
+        "tamanho_bytes": 84833345
+      },
+      "7": {
+        "arquivo": "ataque_C07_LEVE.log",
+        "consultas": 597707,
+        "tamanho_bytes": 84636554
+      },
+      "8": {
+        "arquivo": "ataque_C08_MODERADO.log",
+        "consultas": 1524135,
+        "tamanho_bytes": 215892211
+      },
+      "9": {
+        "arquivo": "ataque_C09_LEVE.log",
+        "consultas": 598994,
+        "tamanho_bytes": 84938503
+      },
+      "10": {
+        "arquivo": "ataque_C10_INTENSO.log",
+        "consultas": 4917526,
+        "tamanho_bytes": 697199189
+      },
+      "11": {
+        "arquivo": "ataque_C11_LEVE.log",
+        "consultas": 599963,
+        "tamanho_bytes": 85075623
+      },
+      "12": {
+        "arquivo": "ataque_C12_MODERADO.log",
+        "consultas": 2461443,
+        "tamanho_bytes": 349051777
+      },
+      "13": {
+        "arquivo": "ataque_C13_LEVE.log",
+        "consultas": 599981,
+        "tamanho_bytes": 85222060
+      },
+      "14": {
+        "arquivo": "ataque_C14_INTENSO.log",
+        "consultas": 4825355,
+        "tamanho_bytes": 683733540
+      },
+      "15": {
+        "arquivo": "ataque_C15_LEVE.log",
+        "consultas": 599963,
+        "tamanho_bytes": 84931703
+      },
+      "16": {
+        "arquivo": "ataque_C16_MODERADO.log",
+        "consultas": 2624326,
+        "tamanho_bytes": 372411211
+      },
+      "17": {
+        "arquivo": "ataque_C17_LEVE.log",
+        "consultas": 599400,
+        "tamanho_bytes": 85068499
+      },
+      "18": {
+        "arquivo": "ataque_C18_MODERADO.log",
+        "consultas": 2302224,
+        "tamanho_bytes": 326591878
+      },
+      "19": {
+        "arquivo": "ataque_C19_INTENSO.log",
+        "consultas": 3926331,
+        "tamanho_bytes": 556262929
+      },
+      "20": {
+        "arquivo": "ataque_C20_LEVE.log",
+        "consultas": 599877,
+        "tamanho_bytes": 85206600
+      },
+      "21": {
+        "arquivo": "ataque_C21_LEVE.log",
+        "consultas": 599873,
+        "tamanho_bytes": 85038864
+      }
+    },
+    "tempo_s": 62.12
+  },
+  "tempo_total_s": 92.34
+}

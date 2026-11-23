@@ -1,0 +1,53 @@
+{
+  "gerado_em": "2026-10-27T02:49:19.096288+00:00",
+  "seed": 129547711,
+  "rede_interna": "10.0.0.0/16",
+  "total_usuarios_pool": 25000,
+  "ip_lab_atacante_original": "192.168.2.201",
+  "resolver_normalizado": "192.168.0.10",
+  "flags_normalizadas": "+E(0)",
+  "faixa_portas": [
+    49152,
+    65535
+  ],
+  "pool_ips_por_nivel": {
+    "LEVE": [
+      15,
+      10
+    ],
+    "MODERADO": [
+      60,
+      40
+    ],
+    "INTENSO": [
+      250,
+      150
+    ]
+  },
+  "margem_janela_s": 120,
+  "linhas_lidas": 38290662,
+  "linhas_com_ip_lab": 38251787,
+  "consultas_remapeadas": 37176870,
+  "linhas_nao_parseadas": 0,
+  "amostras_nao_parseadas": [],
+  "linhas_ip_lab_fora_das_janelas": 1074917,
+  "fora_das_janelas_por_dia": {
+    "07-May-2026": 1002477,
+    "07-Jun-2026": 72440
+  },
+  "ips_unicos_atacantes": 2426,
+  "ips_atacantes_internos_unicos": 1476,
+  "verificacao_pool_vs_log_benigno": {
+    "benign_unique_ips": 25000,
+    "pool_unique_ips": 25000,
+    "identicos": true,
+    "benign_fora_do_pool": 0,
+    "pool_ausente_no_benigno": 0
+  },
+  "sha256_script": "d5ffe1517417d2938c483160c7ec3bbbf4e3138343a4415dc15e191bb0ec3eff",
+  "sha256_saida": "a693d9df61a437dac14cc6563f861cf48235599b4a2e48696adf9762411ffac3",
+  "sha256_entrada": null,
+  "tamanho_entrada_bytes": 5774079602,
+  "tamanho_saida_bytes": 5269904820,
+  "tempo_execucao_s": 157.5
+}

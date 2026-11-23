@@ -1,0 +1,32 @@
+{
+  "qps": {
+    "nominal_mean": 492.5399,
+    "nominal_std": 288.4996,
+    "attack_mean": 613.2896,
+    "attack_std": 287.154
+  },
+  "max_consonant_streak": {
+    "nominal_mean": 2.3368,
+    "nominal_std": 0.032,
+    "attack_mean": 3.3658,
+    "attack_std": 0.9958
+  },
+  "entropy": {
+    "nominal_mean": 3.9099,
+    "nominal_std": 0.1472,
+    "attack_mean": 4.391,
+    "attack_std": 0.2078
+  },
+  "mean_fqdn_len": {
+    "nominal_mean": 15.3718,
+    "nominal_std": 0.3603,
+    "attack_mean": 15.945,
+    "attack_std": 0.7517
+  },
+  "unique_ratio": {
+    "nominal_mean": 0.0963,
+    "nominal_std": 0.0553,
+    "attack_mean": 0.2789,
+    "attack_std": 0.2045
+  }
+}

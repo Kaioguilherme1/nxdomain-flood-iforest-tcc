@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Arquivos pesados (> 100 MB) — hospedados no Kaggle
+*.log
+*.csv.gz
+06_Datasets_e_Logs/01_dataset_bruto/*.log
+06_Datasets_e_Logs/02_dataset_refinado/*.csv.gz
+06_Datasets_e_Logs/logs/
+
+# Documentos privados / relatórios geráveis localmente
+01_Manuscrito_e_Docs/
+reports/
+07_Resultados_e_Relatorios/relatorio_geral_estatistica_e_ml.html
+*.docx
+*.pdf
+
+# SO e IDEs
+.DS_Store
+.idea/
+.vscode/

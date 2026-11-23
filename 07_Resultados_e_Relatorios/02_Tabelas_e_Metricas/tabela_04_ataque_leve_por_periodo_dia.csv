@@ -1,0 +1,5 @@
+periodo_dia,janelas_leve_total,baseline_tp,baseline_recall_pct,proposta_tp,proposta_recall_pct,ganho_pp
+Madrugada (00h–06h),42,42,100.00,42,100.00,0.00
+Transição de Turno (07h e 18h–23h),126,114,90.48,126,100.00,9.52
+Horário Comercial (08h–17h),63,0,0.00,53,84.13,84.13
+Total Geral (Ataques Leves),231,156,67.53,221,95.67,28.14

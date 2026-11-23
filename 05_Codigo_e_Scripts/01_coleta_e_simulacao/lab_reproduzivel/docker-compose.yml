@@ -1,0 +1,51 @@
+version: '3.8'
+
+services:
+  bind9-dns:
+    image: ubuntu/bind9:latest
+    container_name: tcc-bind9
+    environment:
+      - BIND9_USER=bind
+    ports:
+      - '53:53/udp'
+      - '53:53/tcp'
+    volumes:
+      - ./config/named.conf:/etc/bind/named.conf:ro
+      - ./config/named.conf.options:/etc/bind/named.conf.options:ro
+      - ./logs:/var/log/named
+    networks:
+      tcc_net:
+        ipv4_address: 192.168.2.200
+
+  client-benigno:
+    image: python:3.11-slim
+    container_name: tcc-client-benigno
+    volumes:
+      - ../dns-log-generator:/app
+    working_dir: /app
+    command: python main.py
+    depends_on:
+      - bind9-dns
+    networks:
+      tcc_net:
+        ipv4_address: 192.168.2.202
+
+  attacker-nxdomain:
+    image: ubuntu:24.04
+    container_name: tcc-attacker
+    volumes:
+      - ../nxdomain-script:/attack
+    working_dir: /attack
+    command: bash -c "apt update && apt install -y dnsperf python3 && python3 campanha-nxdomain.py"
+    depends_on:
+      - bind9-dns
+    networks:
+      tcc_net:
+        ipv4_address: 192.168.2.203
+
+networks:
+  tcc_net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 192.168.2.0/24

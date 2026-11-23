@@ -1,0 +1,11 @@
+Métrica Avaliada,"Baseline (Nadler et al., 2019)",Proposta deste TCC (com C_max),Variação Absoluta
+Atributos de Entrada,"4 (QPS, H, L, U)","5 (QPS, C_max, H, L, U)",+1 atributo
+Acurácia Global (%),96.99%,98.96%,+1.96 p.p.
+Precisão (%),95.75%,96.30%,+0.55 p.p.
+Recall / Taxa de Detecção (%),88.65%,98.49%,+9.83 p.p.
+F1-Score (%),92.07%,97.38%,+5.32 p.p.
+Taxa de Falsos Alarmes - FAR (%),0.96%,0.93%,-0.04 p.p.
+Falsos Alarmes (FP),26 janelas,25 janelas,-1 janela
+Ataques Perdidos (FN),75 janelas,10 janelas,-65 janelas
+Área sob a Curva ROC (AUC-ROC),0.9922,0.9995,+0.0072
+Área sob a Curva PR (AUC-PR),0.9750,0.9980,+0.0230

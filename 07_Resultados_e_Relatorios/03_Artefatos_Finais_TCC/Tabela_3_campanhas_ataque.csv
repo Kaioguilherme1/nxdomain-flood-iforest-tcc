@@ -1,0 +1,5 @@
+Nível de Intensidade,Duração (-l),Clientes (-c),Teto dnsperf (-Q),Carga Efetiva Integrada (Δt = 30 s),Campanhas,Janelas (Δt = 30 s)
+Leve,600 s (10 min),10 clientes,1.000 QPS,320–620 cons./jan. (μ = 15.37 QPS),11 campanhas,231 janelas
+Moderado,900 s (15 min),40 clientes,5.000 QPS,1602–2794 cons./jan. (μ = 72.03 QPS),6 campanhas,186 janelas
+Intenso,1.800 s (30 min),100 clientes,20.000 QPS,6001–8993 cons./jan. (μ = 245.68 QPS),4 campanhas,244 janelas
+Total Consolidado,—,—,—,2.306.778 consultas de ataque,21 campanhas,661 janelas

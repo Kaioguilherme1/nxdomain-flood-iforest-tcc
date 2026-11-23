@@ -1,0 +1,4 @@
+Intensidade,Total Janelas,Nadler Recall (%),Nadler Detectados,Nadler Perdidos (FN),Kaio Recall (%),Kaio Detectados,Kaio Perdidos (FN),Ganho Sensibilidade (%),Ataques Salvos a Mais
+LEVE,231,67.53,156,75,95.67,221,10,28.14,65
+MODERADO,186,100.0,186,0,100.0,186,0,0.0,0
+INTENSO,244,100.0,244,0,100.0,244,0,0.0,0

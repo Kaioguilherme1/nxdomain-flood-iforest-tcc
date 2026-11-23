@@ -1,0 +1,3 @@
+Abordagem,Atributos,Acurácia (%),Precisão (%),Recall (%),FAR (%),Falsos Alarmes (FP),Ataques Perdidos (FN),F1-Score (%),ROC-AUC,PR-AUC
+"Baseline (Nadler et al., 2019)","4 [QPS, Entropia, Comp. Médio, Únicos]",96.99,95.75,88.65,0.96,26,75,92.07,0.9922,0.975
+Proposta deste TCC (com C_max),"5 [QPS, C_max, Entropia, Comp. Médio, Únicos]",98.96,96.3,98.49,0.93,25,10,97.38,0.9995,0.998

@@ -1,0 +1,26 @@
+{
+  "gerado_em": "2026-10-27T17:07:21.307033+00:00",
+  "arquivo_saida": "06_Datasets_e_Logs/02_estruturado_tabular/dns_eventos_estruturados_48h.csv.gz",
+  "formato": "CSV_GZIP",
+  "tamanho_bytes": 3236564489,
+  "tamanho_gb": 3.24,
+  "total_eventos_estruturados": 122786098,
+  "total_eventos_benignos_label_0": 85609228,
+  "total_eventos_ataque_label_1": 37176870,
+  "proporcao_benigno_pct": 69.72,
+  "proporcao_ataque_pct": 30.28,
+  "amostra_inspecao": "06_Datasets_e_Logs/02_estruturado_tabular/dns_eventos_estruturados_amostra.csv",
+  "colunas": [
+    "datetime",
+    "timestamp_epoch",
+    "client_ip",
+    "client_port",
+    "client_ptr",
+    "domain",
+    "qtype",
+    "flags",
+    "resolver_ip",
+    "label"
+  ],
+  "tempo_execucao_segundos": 941.4
+}

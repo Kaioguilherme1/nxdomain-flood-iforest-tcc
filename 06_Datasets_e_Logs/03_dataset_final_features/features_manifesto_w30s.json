@@ -1,0 +1,12 @@
+{
+  "gerado_em": "2026-10-27T17:25:17.753968+00:00",
+  "arquivo_entrada": "06_Datasets_e_Logs/02_dataset_refinado/dns_eventos_estruturados_48h.csv.gz",
+  "arquivo_saida": "06_Datasets_e_Logs/03_dataset_final_features/dataset_features_48h_w30s.csv",
+  "delta_t_segundos": 30,
+  "total_eventos_processados": 122786098,
+  "total_janelas_geradas": 5760,
+  "janelas_nominais_label_0": 5099,
+  "janelas_anomalas_label_1": 661,
+  "taxa_contaminacao_pct": 11.48,
+  "tempo_execucao_s": 259.58
+}
